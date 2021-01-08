@@ -9,14 +9,14 @@ import com.lti.entity.Customer;
 public class App {
 
 	public static void main(String[] args) {
-//		Customer c = new Customer();
-//		c.setName("Nivi");
-//		c.setEmail("niv@outlook.com");
-//		LocalDate date = LocalDate.of(1999, 1, 24);
-//		c.setDateOfBirth(date);
-//	
-//		CustomerDao dao = new CustomerDao();
-//		dao.store(c);
+		Customer c = new Customer();
+		c.setName("Nivi");
+		c.setEmail("niv@outlook.com");
+		LocalDate date = LocalDate.of(1999, 1, 24);
+		c.setDateOfBirth(date);
+	
+		CustomerDao dao = new CustomerDao();
+		dao.store(c);
 		
 //		CustomerDao dao = new CustomerDao();
 //		Customer c = dao.fetch(1);
